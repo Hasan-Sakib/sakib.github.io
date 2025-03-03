@@ -381,14 +381,17 @@ span{
     margin:auto
 }
 .friends {
-    padding: 50px 10%;
+    padding: 50px 15%;
     background-color: var(--second-bg-color);
 }
 
 .friends-list {
-    display: grid;
+    padding: 50px 10%;
+    display: flex;
     flex-direction: column;
-    gap: 20px;
+    box-shadow: 0 0 25px var(--main-color);
+    gap: 30px;
+    
 }
 
 .friend {
@@ -400,7 +403,7 @@ span{
 }
 
 .friend:hover {
-    background-color: var(--main-color);
+    background-color: #07407d;
 }
 
 .friend-images {
