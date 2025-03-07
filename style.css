@@ -401,6 +401,30 @@ span{
     cursor: pointer;
     transition: 0.3s;
 }
+.friend-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+.friend-title {
+    font-size: 2rem;
+    color: #9ad5ed;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.friend-description {
+    font-size: 1.7rem;
+    color: #deafe7;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.friend-action {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #ff477e;
+    cursor: pointer;
+}
 
 .friend:hover {
     background-color: #07407d;
